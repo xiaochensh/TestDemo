@@ -7,7 +7,7 @@ from model import Encoder, Decoder, Transformer
 import re
 device = "cuda" if torch.cuda.is_available() else 'cpu' 
 
-#device ='cpu'
+#device ='cpu'  123456789
 
 INPUT_DIM = len(id2vocab)
 OUTPUT_DIM = len(id2vocab)
